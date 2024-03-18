@@ -1,0 +1,38 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    border: none;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+
+  table td{
+    background-color: #242424;
+    color: white;
+  }
+  
+/* input search */
+
+  .inputSearch{
+    display: flex;
+    align-items: baseline;
+  }
+  /* btn  */
+
+  .btnDelete{
+    width: max-content;
+    margin-left: 0;
+  }
+
+  .deleteAll{
+    margin-left: 0;
+    margin-top: 20px;
+  }

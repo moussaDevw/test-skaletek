@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import { Button } from './components/button/Button';
+import { InputSearch } from './components/InputSearch/InputSearch';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
+import { ListActiviti } from './components/ListActivity/ListActiviti';
+
 
 function App() {
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <div className='container'>
+        <ListActiviti />
+     </div>
     </div>
   );
 }
